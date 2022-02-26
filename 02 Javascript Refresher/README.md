@@ -77,4 +77,49 @@ class Person extens Master
 > Classes, Properties & Methods
     removing constructor, add arrow function.
 
-> 
+> Spread & Rest Operators
+
+Spread:   
+    Used to split up array elements OR object properties
+
+    const newArray = {...oldArray,1,2}
+    cont newObject = {...oldObject, newProp:5}
+
+Rest:
+    Used to merge alist of function argument ingo an array
+
+    function sortArgs{... args}{
+        return args.sort()
+    }
+
+> Destructuring
+    Easily extract array elements or object properties and store them in variable
+
+    ----Array Destructuring-----
+
+        [a, b] = ['Hello','Max']
+        console.log(a) // Hello
+        console.log(b) // Max
+
+    ----Object Destructuring-----
+        { name } = { name: 'Max', age:28}
+        console.log(name) //Max
+        console.log(age) // undefined
+
+> Reference and Primitive Types Refresher
+const number =1: -> primitive type.
+const number2 =1number: -> Copy 
+Reasing or store another value of variable
+
+Objecst and Array are References.
+const person = {
+    name:'Ana'
+}
+
+
+Objects and Array, are reference types
+const secondPerson = person; - pointer will copy
+person.name ='Manu' 
+console.log(secondPerson) --> store in memory, 
+
+
