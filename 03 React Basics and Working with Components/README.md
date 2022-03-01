@@ -25,4 +25,26 @@ Module Content:
         + Split big chunks of code into
             multiple smaller functions.
         
-    
+> How is a Componen Build.
+    HTML + CSS + Javascript = React
+     |                |
+     |                |
+     |________________|
+             +
+
+    React allows you to create re-usable  and reactive components consisting of HTML and Javascript ( and CSS)
+        |
+        |
+        |
+     Declarative Approach
+        --> define the desired target state(s) and let React figure out the actual Javascript DOM instructions
+
+Create App, Quickly
+https://github.com/facebook/create-react-app
+
+Commands
+1.  npx create-react-app react-complete-guide
+
+2. npm start
+
+3. npm install
